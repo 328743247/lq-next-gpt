@@ -5,7 +5,10 @@ const cn = {
     Error: {
         Unauthorized:
             "访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码，或者填入你自己的 OpenAI API Key。" +
-            "密码获取方式，关注公众号，回复\"密码\"。  <br> ![公众号二维码](https://www.aiasker.online/gongzhonghao.png)",
+            "密码获取方式，关注公众号，回复\"密码\"。  " +
+            "\n" +
+            "\n" +
+            " ![公众号二维码](https://www.aiasker.online/gongzhonghao.png)",
     },
     ChatItem: {
         ChatItemCount: (count: number) => `${count} 条对话`,
@@ -179,7 +182,10 @@ const cn = {
         DefaultTopic: "新的聊天",
         BotHello:
             "1. 购买open ai key. --> [AiAsker商城](http://salekey.online)。\n" +
-            "2. 关注公众号不走丢，微信搜索“AI知识库”，或扫码关注。  <br> ![公众号二维码](https://www.aiasker.online/gongzhonghao.png)",
+            "2. 关注公众号不走丢，微信搜索“AI知识库”，或扫码关注。  " +
+            "\n" +
+            "\n" +
+            " ![公众号二维码](https://www.aiasker.online/gongzhonghao.png)",
         Error: "出错了，稍后重试吧",
         Prompt: {
             History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
