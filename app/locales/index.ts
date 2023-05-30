@@ -16,8 +16,8 @@ import { merge } from "../utils/merge";
 export type { LocaleType, RequiredLocaleType } from "./cn";
 
 export const AllLangs = [
-  "en",
   "cn",
+  "en",
   "tw",
   "fr",
   "es",
