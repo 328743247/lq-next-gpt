@@ -196,5 +196,6 @@ export function SideBar(props: { className?: string }) {
         onMouseDown={(e) => onDragMouseDown(e as any)}
       ></div>
     </div>
+  <script type="text/javascript" src="//js.users.51.la/21666061.js"></script>
   );
 }
