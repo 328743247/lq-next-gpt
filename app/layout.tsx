@@ -35,7 +35,7 @@ export default function RootLayout({
         <meta name="version" content={buildConfig.commitId} />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
-        <script type="text/javascript" src="//js.users.51.la/21666061.js"></script>
+        <script src="//js.users.51.la/21666061.js" defer></script>
       </head>
       <body>{children}</body>
     </html>
