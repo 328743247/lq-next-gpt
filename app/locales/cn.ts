@@ -4,6 +4,7 @@ const cn = {
     WIP: "该功能仍在开发中……",
     Error: {
         Unauthorized:
+            "永久站，不走丢，收录各种宝藏网站，也可创建自己的网页书签导航---> [AiAsker导航](https://aiasker.cn)  \n\n "+
             "访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码，或者填入你自己的 OpenAI API Key。" +
             "密码获取方式，关注公众号，回复\"密码\"。  " +
             "\n" +
