@@ -8,7 +8,7 @@ const cn = {
             "密码获取方式，关注公众号，回复\"密码\"。  " +
             "\n" +
             "\n" +
-            " ![公众号二维码](https://www.aiasker.online/gongzhonghao.png)",
+            " ![公众号二维码](https://www.aiaskew.shop/gongzhonghao.png)",
     },
     ChatItem: {
         ChatItemCount: (count: number) => `${count} 条对话`,
@@ -146,7 +146,7 @@ const cn = {
         },
         Token: {
             Title: "API Key",
-            SubTitle: "使用自己的 Key 可绕过密码访问限制。购买地址http://aiasker.online",
+            SubTitle: "使用自己的 Key 可绕过密码访问限制。购买地址http://salekey.online",
             Placeholder: "OpenAI API Key",
         },
 
@@ -185,7 +185,7 @@ const cn = {
             "2. 关注公众号不走丢，微信搜索“AI知识库”，或扫码关注。  " +
             "\n" +
             "\n" +
-            " ![公众号二维码](https://www.aiasker.online/gongzhonghao.png)",
+            " ![公众号二维码](https://www.aiaskew.shop/gongzhonghao.png)",
         Error: "出错了，稍后重试吧",
         Prompt: {
             History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
