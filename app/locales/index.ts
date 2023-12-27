@@ -16,8 +16,8 @@ import { merge } from "../utils/merge";
 export type { LocaleType, RequiredLocaleType } from "./cn";
 
 export const AllLangs = [
-  "en",
   "cn",
+  "en",
   "tw",
   "fr",
   "es",
@@ -49,7 +49,7 @@ export const ALL_LANG_OPTIONS: Record<Lang, string> = {
 };
 
 const LANG_KEY = "lang";
-const DEFAULT_LANG = "en";
+const DEFAULT_LANG = "cn";
 
 function getItem(key: string) {
   try {
